@@ -1,4 +1,4 @@
-//#include <stdio.h>
+ï»¿//#include <stdio.h>
 //#include <stdlib.h>
 //
 //int check(int top, int length, int* stack);
@@ -20,11 +20,11 @@
 //
 //	int count = 0;
 //
-//	for(int i=0; i< length; i++){ // ¿­
+//	for(int i=0; i< length; i++){ // ì—´
 //
 //		bool flag = true;
 //
-//		for(int j=0; j < top; j++){ // ½ºÅÃ ¼ÓÀÇ ´Ù¸¥ °ª ºñ±³
+//		for(int j=0; j < top; j++){ // ìŠ¤íƒ ì†ì˜ ë‹¤ë¥¸ ê°’ ë¹„êµ
 //
 //			int differ = i - top;
 //			int sum = i + top;
@@ -36,7 +36,7 @@
 //		if(flag){
 //			stack[top] = i;
 //
-//			//½ÃÇè Ãâ·Â
+//			//ì‹œí—˜ ì¶œë ¥
 //			/*for(int temp = 0; temp < length; temp++){
 //				printf("%d\t", stack[temp]);
 //			}
@@ -66,8 +66,8 @@
 //
 //	for(int i=0; i<num; i++){
 //
-//		int size = 1; // Ã¼½ºÆÇ Å©±â
-//		int count = 0; // ÀûÇÕÇÑ °æ¿ì ¼¼±â
+//		int size = 1; // ì²´ìŠ¤íŒ í¬ê¸°
+//		int count = 0; // ì í•©í•œ ê²½ìš° ì„¸ê¸°
 //		a = scanf("%d", &size);
 //
 //		count = validityCheck(size);
